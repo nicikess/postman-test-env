@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "718a6df0-a897-4a30-91d9-8a96eca6422a",
+		"name": "local-environment-state-app",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "9735997-718a6df0-a897-4a30-91d9-8a96eca6422a"
+	},
+	"item": [
+		{
+			"name": "AuthRequest",
+			"id": "4932b85e-4df9-4578-b8c6-09aa68158150",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"admin\",\n    \"password\": \"Un2uoUNaEzGRkroM\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:8080/api/v1/session/test",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"session",
+						"test"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "89f8646e-2664-493a-b325-c5ac1fe50afa",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
