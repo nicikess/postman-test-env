@@ -31,7 +31,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://localhost:8080/api/v1/session/test",
+					"raw": "https://localhost:8080/api/v1/session/te",
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -41,7 +41,7 @@
 						"api",
 						"v1",
 						"session",
-						"test"
+						"te"
 					]
 				}
 			},
